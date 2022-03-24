@@ -1,0 +1,611 @@
+ /* --------------/ Media Query /-------------- */
+
+  /*---- Laptops, Desktops------*/
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+.customer-reg-form{
+          width:60%;
+          margin-top: 27px;
+        }
+.customer-reg-form h4{
+    font-size:17px;
+     }
+label, option {
+    font-size: 14px;
+}
+input, select{
+    height: 32px;
+    margin: 0.7rem 0 1.5rem 0;    
+}
+.submit{font-size: 13px;
+    padding: 8px 0;
+}
+.submit-info {margin: 1%;}
+.reg-form{
+    padding:2rem;
+}
+    
+.work-flow {
+        padding-top:2rem;
+    }
+.work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
+       font-size: 34px;
+    }
+    
+.our-work-steps h4 {
+        font-size: 22px;
+    }
+    .our-work-steps{
+        padding-bottom: 5%;
+    }
+    .our-work-steps p {
+        font-size: 13px;
+        padding-bottom:2%;
+       
+    } 
+    .step3 {
+        padding-top: 3rem;
+    }
+    .coastal-txt {
+        padding: 17% 2%;
+        text-align: center;
+    }
+    .text-decor h4{font-size: 28px;}
+    
+    .text-decor p{
+        font-size: 18px;
+    }
+    
+    .slider{
+        display:block;
+        width:100%;
+        padding-top: 30px;
+    }
+    .prev, .next{
+        top:47%;
+        right:0%;
+    }
+    .prev{
+        left:0%;
+    }
+    
+    .testimonials-decor {
+        flex-wrap: wrap;
+    }
+    .test-decor img {
+        height: 270px;
+        background-size: 100% 100%;
+    }
+    .first{
+        width: 100%;
+        padding: 0px;
+    }
+    .testing{
+        padding-top: 30px;
+    }
+    .first h4{
+        font-size: 25px;
+    }
+    .test-para{
+        font-size: 13px;
+    }
+    .test3{
+        order: 1;
+    }
+    .test2{
+        padding: 0px 47px 70px 47px;
+    }
+    .test-decor{
+        order: 2;
+        padding-top: 25px;
+    }
+    .f-style{
+        width: 70%;
+        height: auto;
+    }
+}
+    
+ /* Tablets, Ipads */
+  
+ @media (min-width: 768px) and (max-width: 1024px) {
+    
+.customer-reg-form{
+          width:80%;
+          margin-top: 25px;
+        }
+.customer-reg-form h4{
+    font-size:15px;
+     }
+label, option {
+    font-size: 12px;
+}
+input, select{
+    height: 30px;
+    margin: 0.7rem 0 1.5rem 0;    
+}
+.submit{font-size: 12px;
+    padding: 8px 0;
+}
+.submit-info {margin: 2%;}
+.reg-form{
+    padding:1.5rem;
+}
+    
+.header-main img{
+    padding:1.8rem 0;
+}
+    
+.work-flow {
+        padding-top:3rem;
+    }
+.work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
+        font-size: 32px;
+    }
+.testimonials h3 {
+        padding-bottom: 4rem;
+    }
+.our-work-steps h4 {
+        font-size: 23px;
+    }
+    .our-work-steps{
+        padding-bottom: 5%;
+    }
+    .our-work-steps p {
+        font-size: 14px;
+        padding-bottom:2%;
+       
+    }
+    
+    .our-work-steps:nth-child(2) {
+        padding: 4rem 4rem 3rem 4rem;
+      }
+    
+    .step3 {
+        padding-top: 4rem;
+        border-bottom: none;
+    }
+    .coastal-txt {
+       display:block;
+        padding: 50px 10px;
+        text-align: center;
+    }
+    .text-decor h4{font-size: 28px;}
+    
+    .text-decor p{
+        font-size: 18px;
+    }
+    
+    .slider{
+        display:block;
+        width:100%;
+        padding-top: 30px;
+    }
+    .prev, .next{
+        top:60%;
+        right:0%;
+    }
+    .prev{
+        left:0%;
+    }
+    
+    .testimonials-decor {
+        flex-wrap: wrap;
+    }
+    .test-decor img {
+        height: 270px;
+        background-size: 100% 100%;
+    }
+    .first{
+        width: 100%;
+        padding: 0px;
+    }
+    .testing{
+        padding-top: 30px;
+    }
+    .first h4{
+        font-size: 25px;
+    }
+    .test-para{
+        font-size: 13px;
+    }
+    .test3{
+        order: 1;
+    }
+    .test2{
+        padding: 0px 47px 70px 47px;
+    }
+    .test-decor{
+        order: 2;
+        padding-top: 25px;
+    }
+    .f-style{
+        width: 75%;
+        height: auto;
+    }
+}
+     
+  /* Low Resolution Tablets, Mobiles (Landscape) */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+.customer-reg-form{
+          width:100%;
+          margin-top: 25px;
+        }
+.customer-reg-form h4{
+    font-size:15px;
+     }
+label, option {
+    font-size: 12px;
+}
+input, select{
+    height: 30px;
+    margin: 0.7rem 0 1.5rem 0;    
+}
+.submit{font-size: 12px;
+    padding: 8px 0;
+}
+.submit-info {margin-top: 0;}
+.reg-form{
+    padding:1.5rem;
+}
+    
+.header-main img{
+    padding:1.7rem 0;
+}
+    
+.work-flow {
+    padding: 4rem 0 0 0;
+    }
+.work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
+        font-size: 32px;
+        padding-bottom: 4rem;
+        }
+.decor-concept h3{
+    padding-bottom: 0;
+}
+.our-work-steps h4 {
+        font-size: 23px;
+    }
+.our-work{flex-direction: column;
+        width:100%;}
+.our_work__column {
+            max-width: none;
+        }
+    .our-work-steps{
+        border-bottom: 1px solid gray;
+        border-right: none;
+        padding-bottom: 5%;
+    }
+    .our-work-steps p {
+        font-size: 14px;
+        padding-bottom:2%;
+       
+    }
+    .our-work, .decor-content {
+        flex-wrap: wrap;
+    }
+    .our-work-steps:nth-child(2) {
+        padding: 4rem 4rem 3rem 4rem;
+      }
+    
+    .step3 {
+        padding-top: 4rem;
+        border-bottom: none;
+    }
+    .coastal-txt {
+       display:block;
+       width:100%;
+        padding: 0px;
+        text-align: center;
+    }
+    .text-decor h4{font-size: 28px;}
+    
+    .text-decor p{
+        font-size: 18px;
+        margin-bottom: 2rem;
+    }
+    
+    .slider{
+        display:block;
+        width:100%;
+        padding-top: 30px;
+    }
+    .prev, .next{
+        top:60%;
+        right:0%;
+    }
+    .prev{
+        left:0%;
+    }
+    
+    .testimonials-decor {
+        flex-wrap: wrap;
+    }
+    .test-decor img {
+        height: 230px;
+        background-size: 100% 100%;
+    }
+    .first{
+        width: 100%;
+        padding: 0px;
+    }
+    .testing{
+        padding-top: 30px;
+    }
+    .first h4{
+        font-size: 25px;
+        }
+    .test-para{
+        font-size: 13px;
+    }
+    .test3{
+        order: 1;
+    }
+    .test2{
+        padding: 0px 47px 70px 47px;
+    }
+    .test-decor{
+        order: 2;
+        padding-top: 25px;
+    }
+    .f-style{
+        width: 90%;
+        height: auto;
+    }
+  }
+  @media(max-width:767px){
+   .image-decor{
+    width: 100%;
+   }
+  }
+    
+ /* Smartphones Mobiles (Portrait)*/
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+.customer-reg-form{
+          width:100%;
+          margin-top: 20px;
+        }
+.customer-reg-form h4{
+    font-size:13px;
+     }
+label, option {
+    font-size: 10px;
+}
+input, select{
+    height: 25px;
+    margin: 0.5rem 0 1rem 0;    
+}
+.submit{font-size: 10px;
+    padding: 7px 0;
+}
+.submit-info {margin-top: 0;}
+.reg-form{
+    padding:1.5rem;
+}
+    
+.header-main img{
+
+    width: 100%;
+    padding:1.5rem 0;
+}
+ 
+.work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
+        font-size: 31px;
+        padding-bottom: 3rem;
+    }
+.our-work{flex-direction: column;
+           width:100%;}
+.our-work-steps h4 {
+        font-size: 22px;
+    }
+.our-work-steps{
+        border-bottom: 1px solid gray;
+        border-right: none;
+        padding-bottom: 5%;
+    }
+    .our-work-steps p {
+        font-size: 13px;
+        padding-bottom:2%;
+       
+    }
+    .our_work__column {
+      max-width: none;
+  }
+    .our-work-steps:nth-child(2) {
+        padding: 4rem 4rem 1rem 4rem;
+      }
+    
+    .step3 {
+        padding-top: 4rem;
+        border-bottom: none;
+    }
+    .coastal-txt {
+       display:block;
+       width:100%;
+        padding: 0px;
+        text-align: center;
+    }
+   .text-decor h4 {
+        font-size: 22px;
+    }
+    .text-decor p{
+        font-size: 17px;
+        margin-bottom: 18px;
+    }
+    
+    .slider{
+        display:block;
+        width:100%;
+    }
+    .prev, .next{
+        top:64%;
+    }
+    .prev{
+        left:-3%;
+    }
+    .next{
+          right:-3%;
+    }
+    .testimonials {
+        padding-top: 0;}
+        
+    .testimonials-decor {
+        flex-wrap: wrap;
+    }
+    .test-decor img {
+        height: 230px;
+        background-size: 100% 100%;
+        width:100%;
+    }
+    .first{
+        width: 100%;
+        padding: 0px;
+    }
+    .testing{
+        padding-top: 30px;
+    }
+    .first h4{
+        font-size: 20px;
+        }
+    .test-para{
+        font-size: 13px;
+    }
+    .test3{
+        order: 1;
+    }
+   
+    .test-decor{
+        order: 2;
+        padding-top: 25px;
+    }
+    .f-style{
+        width: 100%;
+        height: auto;
+    }
+}  
+    
+   /* On smaller screens less than 300px */
+   @media only screen and (max-width: 300px){
+
+.prev, .next{font-size: 11px}
+.customer-reg-form{
+          width:100%;
+          margin-top: 40px;
+        }
+.customer-reg-form h4{
+    font-size:13px;
+     }
+label, option {
+    font-size: 10px;
+}
+input, select{
+    height: 25px;
+    margin: 0.5rem 0 1rem 0;    
+}
+.submit{font-size: 10px;
+    padding: 7px 0;
+}
+.submit-info {margin-top: 0;}
+.reg-form{
+    padding:1.5rem;
+}
+    
+.header-main img{
+    height: 10vh;
+    width: 90vw;
+    padding:1.5rem 0;
+}
+    
+.work-flow {
+        padding-top:2rem;
+    }
+.work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
+        font-size: 28px;
+    }
+.our-work-steps h4 {
+        font-size: 20px;
+    }
+.our-work-steps{
+        border-bottom: 1px solid gray;
+        border-right: none;
+        padding-bottom: 5%;
+    }
+    .our-work-steps p {
+        font-size: 13px;
+        padding-bottom:2%;
+       
+    }
+    .our-work, .decor-content {
+        flex-wrap: wrap;
+    }
+    /* .our-work-steps:nth-child(2) {
+        padding: 4rem 4rem 1rem 4rem;
+      } */
+    
+    .step3 {
+        padding-top: 4rem;
+        border-bottom: none;
+    }
+    .coastal-txt {
+       display:block;
+       width:100%;
+        padding: 0px;
+        text-align: center;
+    }
+   .text-decor h4 {
+        font-size: 18px;
+    }
+    .text-decor p{
+        font-size: 17px;
+    }
+    
+    .slider{
+        display:block;
+        width:100%;
+        padding-top: 30px;
+    }
+    .prev, .next{
+        top:47%;
+    }
+    
+    .testimonials-decor {
+        flex-wrap: wrap;
+    }
+    .test-decor img {
+        height: 230px;
+        background-size: 100% 100%;
+    }
+    .first{
+        width: 100%;
+        padding: 0px;
+    }
+    .testing{
+        padding-top: 30px;
+    }
+    .first h4{
+        font-size: 25px;
+        }
+    .test-para{
+        font-size: 13px;
+    }
+    .test3{
+        order: 1;
+    }
+    .test2{
+        padding: 0px 47px 70px 47px;
+    }
+    .test-decor{
+        order: 2;
+        padding-top: 25px;
+    }
+    .f-style{
+        width: 100%;
+        height: auto;
+    }
+
+  }
+  
