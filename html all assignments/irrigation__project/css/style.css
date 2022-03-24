@@ -1,0 +1,732 @@
+html{font-size: 10px;}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    max-width: 1280px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:auto;
+    }
+ul{list-style-type: none;}
+a{
+    text-decoration: none;
+    cursor:pointer;
+    color:#505050;
+}
+
+/* Header*/
+
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 0;
+}
+
+header .logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.1rem 0;
+    max-width: 32rem;
+}
+
+header .logo h3 span{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+header .logo a{
+    display: flex;
+    align-items: center;
+    color: #505050;
+    font-family: "TrajanPro-Bold";
+}
+
+header .logo span{
+    padding-left: 1rem;
+}
+
+header .abt{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 1rem;
+    
+}
+
+header .head-main-list{
+    margin-right: 2.2rem;
+}
+
+.head-main-list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.head-main-list li{
+    padding: 0 1rem;
+}
+
+.head-main-list a{
+    font-size: 1.4rem;
+    font-family: "Lato-Regular";
+    color: #505050;
+}
+
+.enbutton{
+    padding: 0.2rem 1.8rem;
+    display: flex;
+    align-items: center;
+    border-left: 0.1rem solid #265781;
+}
+
+.enbutton button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.4rem;
+    font-family: "FiraSans-Regular";
+}
+
+.enbutton i{
+    font-size: 1.6rem;
+    color: #265781;
+    padding-bottom: 0.5rem;
+    padding-left: 0.3rem;
+}
+
+.circle{
+    display: flex;
+    padding: 0.5rem 1rem;
+    border-left: 0.1rem solid #265781;
+    border-right: 0.1rem solid #265781;
+    margin-right: 1.38rem;
+}
+
+.dot{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+}
+.blue{background-color: #265781;}
+.green{background-color: #52B27B;}
+.yellow{background-color: #F2E162;}
+
+.zoom{
+    display: flex;
+    align-items: center;
+}
+
+.zoom ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style-type: none;
+    margin-right: 0.85rem;
+}
+
+.zoom li{
+    padding: 0 0.8rem;
+}
+
+.small{
+    line-height: 0.1rem;
+    font-size: 1.1rem;
+    font-family: "FiraSans-Bold";
+    font-weight: 700;
+    color: #505050;
+}
+
+.normal{
+    line-height: 0.1rem;
+    font-size: 1.4rem;
+    font-family: "FiraSans-Bold";
+    font-weight: 700;
+    color: #505050;
+}
+
+.big{
+    line-height: 0.1rem;
+    font-size: 1.6rem;
+    font-family: "FiraSans-Bold";
+    font-weight: 700;
+    color: #505050;
+}
+
+.home ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.home li{
+    padding: 0 1rem;
+    border-right: 0.1rem solid #265781;
+}
+
+.home li:nth-child(6){
+    padding-right: 0;
+    border: none;
+}
+
+.home a{
+    font-size: 1.4rem;
+    font-family: "Lato-Regular";
+    color: #505050;
+}
+
+    .navbar .logo .icon{display: none;}
+
+/* Main */
+/* VIDC section */
+
+
+
+/* body{
+    font-family: 'lato';
+}
+.container{
+    max-width: 1280px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:auto;
+    }
+
+ul li{
+    list-style:none;
+    }
+ul li span{
+   padding-right: 12px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+    padding: 0px 10px;
+    color:#505050;
+}
+
+.img-fluid{
+    width:100%;
+}
+.alpha{
+    margin-left:24px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 0;
+    }
+.navbar .logo{
+    display:flex;
+    align-items:center;
+    }
+.navbar .logo .logo-container{
+    width:42px;
+    margin-right:10px;
+}
+.head-list-bottom li{
+    border-right: 1px solid black;
+}
+.head-list-bottom li:last-child {
+    border-right: none;
+}
+.head-main-list{
+    padding-bottom: 2%;
+    margin-right: 2.2rem;
+}
+.head-main-list , .head-list-bottom{
+    display:flex;
+    font-size: 14px;
+}
+
+.navbar .logo h1{
+    font-size:15px;
+    font-family: 'Trajan Pro';
+    }
+.navbar .logo h1 span{
+    display:block;
+}
+ */
+
+/* banner css starts */
+.banner{
+    background-image: url('../MyImages/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.banner-content{
+    padding-top:14.9rem;
+    padding-bottom: 4.2rem;
+    }
+h2{
+    display:inline-block;
+    padding: 0px 26px 0px 17px;
+    font-size: 57px;
+    margin-bottom: 4.8px;
+  }
+
+.agri_irri{
+    display:inline-block;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.vidc , .agri_irri{
+    background-color:#0F5C30;
+    color:#ffffff;
+    font-family: "Lato-Black";
+    font-weight: 900;
+    }
+.KNOW_MORE{
+    cursor: pointer;
+    margin: 3.5rem 0;
+    background-color: #FFFFFF;
+    color: #272727;
+    font-size: 2.2rem;
+    font-family: "Lato-Regular";
+    text-transform: uppercase;
+    padding: 0 2.1rem;
+    border: none;
+    line-height: 4.1rem;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: -2.5rem;
+}
+
+
+.box-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 2.5rem;
+    background-color: #1B7642;
+    z-index: 1;
+    color:#FFFFFF;
+}
+
+
+
+     
+    /* Middle section - Manage & Develop        */
+
+.irrigation{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8.7rem;
+         }   
+.irrigation .irrigation-logo{
+        width:182px;
+        height: 210px;  
+        }       
+.irrigation-title  {
+        font-size:43px;
+        color:#505050;
+         }
+
+.head-up{
+    text-align: center;
+}
+ .head-down{
+    text-align: right;
+    margin-left: 225px;
+}
+    
+.images-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+figure{
+    padding-top: 7%;
+    margin-right: 8%;
+    margin-bottom: 9%;
+    text-align: center;
+}
+ figure:last-child {
+    margin-right: 0;
+}
+.images-container figcaption a{
+    font-family: "Lato-Black";
+    font-weight: 900;
+    color: #505050;
+    text-transform: uppercase;}
+.images-container span{
+            display:block;
+        }
+
+/* About section starts */
+.video_background_container{
+    background-image: url('../MyImages/videobackground_img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.video-div{
+    position:relative;
+    left:6%;
+    }
+.irri-video{
+    width:500px;
+    height:265px;
+}
+.vdc_row{
+    display: flex;
+    align-items: center;
+  }
+.vdc {
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #3F3531;
+    padding:5% 8% 5% 12%;
+  }
+.vdcinfo{
+    margin-left:-17px;
+  }
+.btn-green{
+    cursor: pointer;
+    margin: 3.5rem 0;
+    background-color: #44AF72;
+    color: #FFFFFF;
+    font-size: 2.2rem;
+    font-family: "Lato-Regular";
+    text-transform: uppercase;
+    padding: 0 2.1rem;
+    border: none;
+    line-height: 4.1rem;
+}
+  
+
+
+/* footer design starts */
+.footer-backgrnd {
+    background-image: url('../MyImages/footer_img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    margin-top:6%;
+    height:470px;
+   } 
+.footer-links, .footer-bottom, .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content{
+    padding-top:8.2%;
+    }
+.footer__subscribe{
+    width:65%;
+}
+.footer-p{
+    width:33%;
+}
+.footer-links{
+    width:75%;
+    }
+.footer-bottom{
+    padding-top: 8%;
+    }
+.footer__heading-1 {
+    font-size: 22px;
+    } 
+.footer__heading-2 {
+    font-size: 18px;
+    }
+.footer__unorderlist{
+    margin-top: 6%;
+}
+.footer__unorderlist ,  .footer-p p{
+        font-size:12px;
+      }
+.footer__searchbar {
+    position: relative;
+    margin-bottom:5%;
+}
+.Emailid{
+     padding: 12px;
+     width:87%;
+     color: white;
+ }
+.btn-subscribe{
+     position:absolute;
+     left:64.5%;
+     top:11%;
+     padding:8px 30px 7px 31px;
+     }
+ .Emailid, .btn-subscribe{
+    border-radius:20px;
+    border:none;
+ }
+ ::placeholder {
+    color: #fff;
+  }
+.footer-p, .Emailid {
+    background-color: #126134;
+    }
+  
+.f-contact , .f-call , .f-email , .f-follow{
+      /* padding:19px 30px; */
+      padding:5% 8%;
+      display:flex;
+      align-items: center;
+  }
+  .contact-us, .call-us{
+      border-bottom: 1px solid gray;
+      padding-bottom:2rem;
+  }
+  .call-us{
+    padding-right: 50%;
+  }
+ #follow{
+     border-right:2px solid gray;
+ }
+.s-icon{
+    padding:0 5%;
+ }
+ .icons{padding-right: 6%;}
+ .fab{ color:#FFFFFF;}
+.footer__copyright {
+    font-size: 8px;
+    }
+.footer__ltd{
+    text-align: end;
+}
+.footer__ltd span {
+     display:block;
+}
+
+  
+ 
+/* ----------------------------------Media Queries--------------------------------------- */
+
+/* ----------------------------------Desktops & Laptops----------------------------- */
+
+@media (min-width: 1024px) {
+            
+    .icon{display:none; }         
+            
+}
+
+/* ----------------------------------Tablets & iPads-------------------------------- */
+
+@media (min-width: 769px) and (max-width: 1023px){
+
+.icon{display:none; }
+ul.head-list-bottom a {
+        padding-right: 5px;}
+.irrigation-title  {
+        font-size:24px;}
+.irrigation-img{
+       width:93%;}
+.irrigation .irrigation-logo{
+        height: 165px; } 
+.irri-video{
+            width:117%;}
+.video-div{
+    left:2%;}
+.vdc{
+    width:80%;
+}
+.vdcinfo{
+    font-size:30px;
+}
+
+figure{
+    margin-right: 6%;}
+.btn-green{
+        font-size:15px;
+  }
+.btn-subscribe{
+    left:49%;
+   }
+.footer__heading-2 {
+    font-size: 16px;} 
+.footer-content{
+        padding-top:11%;
+        }
+.footer-backgrnd{
+    height:370px;
+ }
+}
+/* ----------------------------------Mobile Phones---------------------------------- */
+
+@media (max-width: 768px){
+   
+ .header-nav-right{display:none; }
+ .icon{
+     display:block;
+ }
+.navbar .logo h1{
+        font-size:14px; }
+.head-main-list , .head-list-bottom{
+        font-size: 12px; }
+h2{
+        font-size: 46px;
+            margin-bottom: 4.8px;}
+        
+.agri_irri{
+            font-size: 25px;
+            }
+.KNOW_MORE {
+                font-size: 18px;}
+
+          
+.irrigation-title {
+                    font-size:24px;}
+.irrigation-img{
+                width:93%;}
+.irrigation .irrigation-logo{
+                    height: 135px; } 
+.head-down{
+    margin-left: 0;
+}
+figure{margin-right:2%; }
+.images-container{
+    display:block;
+}
+
+.irri-video{
+              width:117%;}
+.video-div{
+             left:2%;}
+.vdc{
+      width:90%; }
+            
+.vdcinfo{
+                font-size:25px; }
+.btn-green{
+                    font-size:15px; }
+.btn-subscribe{
+                left:49%; }
+.footer__heading-2 {
+                font-size: 16px;} 
+.footer-content{
+                    padding-top:11%;
+                    }
+.footer-backgrnd{
+                height:367px;}
+             
+    }
+
+
+    /*--------------------------------small size mobile phone ---------------------------------------*/
+    @media (max-width: 575px){
+        
+        .navbar .logo h1{
+                font-size:9px; }
+        .head-main-list , .head-list-bottom{
+                font-size: 8px; }
+        h2{
+                font-size: 46px;
+                    margin-bottom: 4.8px;}
+                
+        .agri_irri{
+                    font-size: 25px;
+                    width: 71vw;
+                    height: 9vh; }
+        .KNOW_MORE {
+                        font-size: 18px;}
+        .rect-box {
+                     height: 12%;
+                     width: 12%; }
+                  
+        .irrigation-title {
+                            font-size:24px;}
+        .irrigation-img{
+                        width:93%;}
+        .irrigation .irrigation-logo{
+                            height: 135px; } 
+        .head-down{
+            margin-left: 0;
+        }
+        figure{margin-right:2%; }
+        .images-container{
+            display:block;
+        }
+        
+        .irri-video{
+                      width:117%;}
+        .video-div{
+                     left:2%;}
+        .vdc{
+              width:90%; }
+                    
+        .vdcinfo{
+                        font-size:25px; }
+        .btn-green{
+                            font-size:15px; }
+        .btn-subscribe{
+                        left:35%; }
+        .footer__heading-2 {
+                        font-size: 16px;} 
+        .footer-content{
+                            padding-top:11%;
+                            }
+        .footer-backgrnd{
+                        height:367px;}
+
+                    /* navigation bar  */
+.header-nav-right {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+ .head-main-list, .head-list-bottom {
+  display: none;
+}
+
+.header-nav-right a {
+  color: white;
+  padding: 14px 16px;
+  font-size: 17px;
+  display: block;
+}
+
+.header-nav-right a .icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.header-nav-right a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+                     
+    }    
+  
+
+
+
+
+
+
+  
+ 
+  
+
+
+
+ 
+  
